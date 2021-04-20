@@ -1,0 +1,75 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+	padding-top: 50px;
+	text-align: center;
+}
+.row{
+	margin-bottom:15px;
+	padding-top:50px;
+	margin-left:25px;
+	width: 100%;
+}
+.row > div{
+	border:5px solid black;
+	margin-right:25px;
+	background-color: gray;
+}
+#Name{
+	background-color: yellow;
+	border:1px solid black;
+	clear:left;
+}
+#blak{
+	background-color: pink;
+	border:1px solid black;
+}
+#clak{
+	background-color: red;
+	border:1px solid black;
+}
+@media (min-width:992px){
+.col-lg-4{
+	float:left;
+	width: 30%;
+}
+.col-lg-2{
+	float:right;
+}
+}
+@media screen and (min-width: 760px) and (max-width: 992px)
+{
+.col-md-6{
+	float:left;
+	width: 45%;
+	margin-bottom: 20px;
+}
+.col-md-12{
+	float:left;
+	width: 90%;
+	margin-right:10%;
+}
+.col-md-4> #Name{
+	float:right;
+	width:100px;
+}
+.col-md-4{
+	float:right;
+}
+}
+
+@media screen and (max-width: 760px)
+{
+.col-xs-12{
+	float:left;
+	width: 90%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+}
+.col-xs-4{
+	float:right;
+
+}
+
+}
